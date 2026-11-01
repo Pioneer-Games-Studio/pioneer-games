@@ -6,6 +6,20 @@ sidebar_position: 10
 
 # Updates
 
+## Version 4.2
+
+**Per-slot master materials in the Unit Factory**
+
+Meshes whose material slots need different parent materials can now be turned into units in one pass. In the Unit Factory, **Material Slot Masters** sets a master material for each static-mesh slot; slots left blank use the default **Master Material**.
+
+See [Creating Units](./guides/creating-units.md#step-4-create-vertex-anim-assets).
+
+**Unreal Engine 5.8**
+
+Pioneer now supports Unreal Engine 5.8.
+
+---
+
 ## Version 4.1
 
 **Defensive move behavior**

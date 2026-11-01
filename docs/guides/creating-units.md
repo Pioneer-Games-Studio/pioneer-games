@@ -100,6 +100,8 @@ Click:
 
 This validates the inputs, creates the unit folder, creates placeholder VAT textures, creates material instances for every static-mesh material slot, assigns the material instances to the static mesh, and creates `VAD_<UnitName>` seeded with the selected animation list.
 
+By default, every generated material instance uses the **Master Material** input as its parent. For meshes with material slots that need different VAT-capable parent materials, use **Material Slot Masters** to set a per-slot override. Blank slot rows fall back to the default Master Material.
+
 After this step, confirm:
 
 - the status panel reports the created VAD
